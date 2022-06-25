@@ -11,7 +11,7 @@ from sqlalchemy import create_engine
 from fuzzywuzzy import process
 import chardet
 #RUTA PRINCIPAL DONDE SE ENCUENTRAN LOS ARCHIVOS CSV
-ruta = r"C:\Users\user\Desktop\daniel\DATA SCIENCE\HENRY\MATERIAL DE CLASES\DS-PI-ProyectoIndividual\Datasets/"
+ruta = input("Introduzca la ruta donde se encuentran los archivos csv a cargar"+"/")
 
 #RUTAS ===============================================================================================================
 #Creacion de una lista de strings para las los nombres de los archivos csv
